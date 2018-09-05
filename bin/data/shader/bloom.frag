@@ -15,7 +15,7 @@ void main() {
     
     p += b;
     
-    vec3 result = vec3(1.0) - exp(-p * 1.0);
+    vec3 result = vec3(1.0) - exp(-p * 2.0);
     result = pow(result, vec3(1.0 / gamma));
     vFragColor = vec4(result, 1.0);
 }
