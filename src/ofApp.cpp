@@ -27,9 +27,9 @@ void ofApp::update(){
     
     ofRotateZDeg(30.0);
     
-    ofSetColor(200, 200, 200, 255);
+    ofSetColor(255, 255, 255, 255);
     ofDrawBox(100, 0, 300, 100);
-    ofSetColor(0, 0, 200, 255);
+    ofSetColor(0, 0, 255, 255);
     ofDrawSphere(-100, 0, 300, 100);
     
     cam.end();
